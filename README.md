@@ -1,12 +1,78 @@
-# React + Vite
+# Login & SignUp Pages Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, modern Login and SignUp page built with **React** and **Tailwind CSS**. This project is designed to provide an easy-to-use authentication interface with sleek styling and seamless functionality.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Login and SignUp Pages](./assets/login-signup-preview.png)
 
-## Expanding the ESLint configuration
+You can view the live demo of the Login and SignUp pages by visiting [Live Demo Link](#).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Responsive Design**: Fully responsive pages optimized for both mobile and desktop views.
+- **User Authentication**: Login and SignUp forms with essential validations.
+- **Tailwind CSS Styling**: Clean and modern design using Tailwind CSS utility classes.
+- **Google Sign-In Integration**: Option to sign up or log in with Google using the `react-icons` package.
+- **Custom Background**: Interactive background with images and gradient overlays.
+- **Smooth User Experience**: Focus on minimal design and usability.
+
+## Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **Icons**: `react-icons` for Google login icon
+- **Other Libraries**: React Router for navigation (optional, based on your use)
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/login-signup-pages.git
+    ```
+
+2. Navigate into the project directory:
+    ```bash
+    cd login-signup-pages
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+
+
+5. Open your browser and navigate to `http://localhost:3000` to view the Login and SignUp pages.
+
+## Usage
+
+### **LoginPage**:
+- The **LoginPage** is the first page users will see. It includes a form with fields for **Email** and **Password** and a **Google Sign-In** button.
+- The design features a background image with branding on the left and the login form on the right side of the screen.
+
+### **SignUpPage**:
+- The **SignUpPage** allows users to create a new account by entering their **Name**, **Email**, **Password**, and **Confirm Password**.
+- It also features a **Google Sign-Up** button for quicker registration.
+- Similar to the login page, the signup form is styled to be responsive and user-friendly.
+
+## Contributing
+
+If you'd like to contribute to this project, you can follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to your branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **React**: For building the user interface.
+- **Tailwind CSS**: For utility-first CSS styling.
+- **React Router**: (if used for navigation).
+- **react-icons**: For integrating icons like the Google login icon.
+
