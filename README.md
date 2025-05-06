@@ -4,7 +4,7 @@ A responsive, modern Login and SignUp page built with **React** and **Tailwind C
 
 ## Demo
 
-![Login and SignUp Pages](./assets/login-signup-preview.png)
+![Login and SignUp Pages]([./assets/login-signup-preview.png](https://reactday-3.vercel.app/))
 
 You can view the live demo of the Login and SignUp pages by visiting [Live Demo Link](#).
 
